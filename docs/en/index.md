@@ -2,7 +2,7 @@
 
 Welcome to the **Math Problems** repository. This project is designated as a comprehensive template for your personal digital notebook, intended to serve you throughout the entire course.
 
-This repository is bilingual (English/Polish) and structured to facilitate the creation of a personalized knowledge base via the Fork & Clone method.
+This repository is bilingual (English/Polish) and structured to facilitate the creation of a personalized knowledge base via the Fork & Clone method...
 
 ## Workflow and Methodology
 
