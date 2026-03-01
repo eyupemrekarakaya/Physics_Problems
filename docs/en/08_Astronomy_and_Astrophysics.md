@@ -38,11 +38,11 @@ b) by a spacecraft traveling at a constant speed of 40,000 km/h = 11.11 km/s?
 
 c) by "airplane" traveling at a constant speed of 900 km/h, typical for intercontinental flights?
 
-## 9. Aristarchus’ Method 
+## 9. Aristarchus’ Method
 
-At the exact half-Moon phase (dichotomy), the Earth–Moon–Sun system forms a right triangle with the right angle at the Moon.
+Aristarchus from Samos (310–230 BC) was an ancient Greek astronomer who attempted to determine the relative distances and sizes of the Sun and the Moon using geometric methods based on observations of lunar phases.
 
-The angular separation between the Sun and the Moon observed from Earth at that moment is $\theta = 89.85^\circ$. The apparent angular diameter of both the Sun and the Moon is $\alpha = 0.53^\circ$. The average Earth–Moon distance is $d_{EM} = 3.84 \times 10^5 \,\text{km}$. 
+At the exact half-Moon phase (dichotomy), the Earth–Moon–Sun system forms a right triangle with the right angle at the Moon. The angular separation between the Sun and the Moon observed from Earth at that moment is $\theta = 89.85^\circ$. The apparent angular diameter of both the Sun and the Moon is $\alpha = 0.53^\circ$. The average Earth–Moon distance is $d_{EM} = 3.84 \times 10^5\,\text{km}$.
 
 Calculate:
 
@@ -52,21 +52,25 @@ Calculate:
 
 3. The ratio of true diameters $\frac{D_M}{D_S}$.
 
-4. How much the value of $d_{ES}$ changes if $\theta = 89.75^\circ$ (used by Aristarchus) is used instead of $89.85^\circ$. Briefly comment on the sensitivity of the result to the angle measurement and what this implies for Aristarchus’ method.
+4. How much the value of $d_{ES}$ changes if $\theta = 89.75^\circ$ (a historically quoted value attributed to Aristarchus from Samos) is used instead of $89.85^\circ$. Briefly comment on the sensitivity of the result to the angle measurement and what this implies for Aristarchus’ method.
+
+---
 
 ## 10. Measuring the Height of the Atmosphere
 
-Medieval astronomers in Al-Andalus timed how long it takes after **sunset** until **astronomical twilight** begins (when faint stars become visible). They assumed this happens when the Sun is at a true geometric angle $\delta$ below the horizon. A chronicle reports that on a clear evening the time between sunset and the first appearance of faint stars was $t = 37\,\text{min}$.
+A medieval astronomer in Al-Andalus, Al-Zarqali (Arzachel) (1029–1087 AD), attempted to estimate the height of the Earth’s atmosphere using a geometric method based on sunset timing. He measured the interval between sunset and the moment when faint stars first became visible, assuming that this corresponds to the Sun reaching a true geometric depression angle $\phi$ below the horizon. A chronicle reports that on a clear evening the time between sunset and the first appearance of faint stars was $t = 40 minutes.
+
 
 Assume:
 - Earth radius $R_E = 6370\,\text{km}$,
-- Earth’s rotation rate $360^\circ$ per 24 hours,
+- Earth’s rotation rate: full rotation in 24 hours (i.e., $360^\circ$ in 24 hours),
 - A simple “sharp-edge atmosphere” model in which a Sun ray reaches the observer by just grazing the top of the atmosphere, giving
+  $$
+  \cos\phi = \frac{R_E}{R_E+h}.
+  $$
 
-$$
-\cos\delta = \frac{R_E}{R_E+h}.
-$$
-
-Find the solar depression angle $\delta$ (in degrees) from the measured time $t$ and the atmospheric height $h$ in km.
+Find:
+1. The solar depression angle $\phi$ (in degrees) implied by the measured time $t$.
+2. The atmospheric height $h$ in km.
 
 
