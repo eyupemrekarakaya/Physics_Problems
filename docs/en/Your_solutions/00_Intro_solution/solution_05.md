@@ -35,9 +35,9 @@ $$
 
 Vertical component:
 
-\[
+$$
 A_y = A \sin\theta
-\]
+$$
 
 ---
 
@@ -129,4 +129,5 @@ This means the vector moves:
 
 - **7.5 units horizontally**
 - **about 13 units vertically**
+
 
