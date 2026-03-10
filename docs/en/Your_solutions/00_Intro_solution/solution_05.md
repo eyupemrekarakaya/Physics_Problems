@@ -29,9 +29,9 @@ Therefore:
 
 Horizontal component:
 
-\[
+$$ 
 A_x = A \cos\theta
-\]
+$$
 
 Vertical component:
 
@@ -129,3 +129,4 @@ This means the vector moves:
 
 - **7.5 units horizontally**
 - **about 13 units vertically**
+
