@@ -1,3 +1,84 @@
+# Mixed Circuit Resistance Calculation
+
+This project calculates the equivalent resistance of a mixed resistor circuit using a Bash script.
+
+---
+
+# Circuit Information
+
+All resistors in the circuit have a resistance of 5 ohms.
+
+The goal is to calculate the equivalent resistance between the two terminals.
+
+---
+
+# Step-by-Step Solution
+
+## Step 1: Middle Branch
+
+The middle branch contains two resistors connected in series.
+
+Formula:
+
+R = 5Ω + 5Ω
+
+Result:
+
+R = 10Ω
+
+---
+
+## Step 2: Right Branch
+
+The right branch also contains two resistors connected in series.
+
+Formula:
+
+R = 5Ω + 5Ω
+
+Result:
+
+R = 10Ω
+
+---
+
+## Step 3: Parallel Combination
+
+The two 10Ω branches are connected in parallel.
+
+Formula:
+
+R = (10 × 10) / (10 + 10)
+
+Result:
+
+R = 5Ω
+
+---
+
+## Step 4: Final Series Combination
+
+Now the remaining resistors are connected in series.
+
+Formula:
+
+Req = 5Ω + 5Ω + 5Ω
+
+Result:
+
+Req = 15Ω
+
+---
+
+# Final Answer
+
+Equivalent Resistance = 15Ω
+
+---
+
+# Bash Script
+
+```bash
 #!/bin/bash
 
 echo "====================================="
@@ -50,3 +131,13 @@ echo ""
 echo "====================================="
 echo " Final Equivalent Resistance = ${final}Ω "
 echo "====================================="
+```
+
+---
+
+# How to Run
+
+```bash
+chmod +x script.sh
+./script.sh
+```
